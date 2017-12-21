@@ -19,6 +19,7 @@ body {
 header {
       text-align: center;
       background-size: cover;
+      background: fixed;
       background: url("https://images.pexels.com/photos/416534/pexels-photo-416534.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
       color: white;
     }
