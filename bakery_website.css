@@ -34,8 +34,9 @@ header {
     a {
       color: white;
     }
-    h1 {
+    h2 {
       font-size: 70px;
+      background-color: black;
     }
     img {
       margin: 0px 0px 0px 0px;
