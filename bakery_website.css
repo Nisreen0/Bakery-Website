@@ -2,15 +2,33 @@ body {
     text-align: center;
     background: #D1F1ED;
     color: black;
-    font-family: helvetica;
+    font-family: Microsoft JhengHei;
 	}
     p {
-      font-size:22px;
+       color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+    }
+    article {
+    	position: center;
     }
     input {
       border: 0;
       padding: 10px;
       font-size: 18px;
+      position: bottom;
     }
     input[type="submit"] {
       background: black;
@@ -34,6 +52,9 @@ header {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+    small {
+	 opacity: 0; 
+	}
     a {
       color: white;
     }
@@ -54,13 +75,31 @@ header {
   border-radius: 12px;
     }
     .first {
-  background: url("https://scontent.flcy1-1.fna.fbcdn.net/v/t34.0-12/25627420_399694010501076_1871350465_n.jpg?oh=863143395fe97cc8f4d60bd4825f150e&oe=5A3DEFA1");
+  background: url("https://scontent.flcy1-1.fna.fbcdn.net/v/t34.0-12/25589994_399719673831843_1431994310_n.jpg?oh=74d2ea8840821de4120f57a86179eb43&oe=5A3ECD2B");
+  background-size: cover;
+  height: 480px;
+  width: 390px;
+  margin-left: 40px;
+  float: left;
+  margin-bottom: 50px;
 	}
 	.second {
   background: url("https://scontent.flcy1-1.fna.fbcdn.net/v/t34.0-12/25593641_399694020501075_848367878_n.jpg?oh=cff665e045fec993daaf80247d9173e1&oe=5A3DC8D6");
+  background-size: cover;
+  height: 480px;
+  width: 390px;
+  margin-left: 40px;
+  float: left;
+  margin-bottom: 50px;
 	}
 	.third {
   background: url("https://scontent.flcy1-1.fna.fbcdn.net/v/t34.0-12/25627420_399694010501076_1871350465_n.jpg?oh=863143395fe97cc8f4d60bd4825f150e&oe=5A3DEFA1");
+  background-size: cover;
+  height: 480px;
+  width: 390px;
+  margin-left: 40px;
+  float: left;
+  margin-bottom: 50px;
 	}
     @media (max-width: 500px) {
       h1 {

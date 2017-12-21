@@ -16,9 +16,10 @@
       		<li> <a href="#">Contact us</a> </li>
     	</ul>
   	</header>
-
+  	<div class="About">
   	<h3> About us </h3>
-  	<p>tyuiop';lkjh</p>
+  	<h5>tyuiop';lkjh</h5>
+  	</div>
   	<h3> Our products </h3>
     <div class="first">
 <p>Raspberry Layer Cake<br />
@@ -34,9 +35,18 @@
 <p>Brownie Meringue Cake<br />
 <small>Description....................................................................................................................................................................................................</small> </p>
 	</div>
-	<h3>Contact Us</h3>
-	<p> Sign up to our newsletter and never miss another amazing offer from Silver Linings Bakery! </p>
+	<div class="Contact">
+		<h3>Contact Us</h3>
+	<h4> Sign up to our newsletter and never miss another amazing offer from Silver Linings Bakery! </h4>
+	</div>
+	<div class="Email">
     <input type="email" placeholder="Your Email">
     <input type="submit">
+	</div>
+    <script>
+$('div').on('click', function() {
+  $(this).toggleClass('show-description');
+});
+</script>
   </body>
 </html>
