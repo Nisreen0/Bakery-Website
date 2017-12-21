@@ -41,3 +41,27 @@ header {
       border: 7px solid white;
       border-radius: 20px;
     }
+   div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0px 0px 0px;
+  border-radius: 12px;
+    }
+    .first {
+  background: url("https://scontent.flcy1-1.fna.fbcdn.net/v/t34.0-12/25627420_399694010501076_1871350465_n.jpg?oh=863143395fe97cc8f4d60bd4825f150e&oe=5A3DEFA1");
+	}
+	.second {
+  background: url("http://dash.ga.co/assets/secondcourse.jpg");
+	}
+	.third {
+  background: url("http://dash.ga.co/assets/dessertcourse.jpg");
+	}
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
