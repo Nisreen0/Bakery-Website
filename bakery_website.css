@@ -21,11 +21,14 @@ header {
       background-size: cover;
       background: fixed;
       background: url("https://images.pexels.com/photos/416534/pexels-photo-416534.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
-      color: white;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: white; 
     }
     ul {
       padding: 10px;
       background: grey;
+      white-space: nowrap;
     }
     li {
       display: inline;
