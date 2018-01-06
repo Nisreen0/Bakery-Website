@@ -3,7 +3,7 @@ body {
     background: #D1F1ED;
     color: black;
     font-family: Microsoft JhengHei;
-	}
+    }
     p {
        color: rgba(255,255,255,1);
   background: black;
@@ -22,7 +22,7 @@ body {
   -moz-transition: height .5s;
     }
     article {
-    	position: center;
+        position: center;
     }
     input {
       border: 0;
@@ -52,13 +52,10 @@ header {
       padding: 0px 10px 0px 10px;
     }
     small {
-	 opacity: 0; 
-	}
+     opacity: 0; 
+    }
     a {
       color: white;
-    }
-    h2 {
-      font-size: 30px;
     }
     img {
       margin: 0px 0px 0px 0px;
@@ -90,8 +87,8 @@ header {
   margin-left: 40px;
   float: left;
   margin-bottom: 50px;
-	}
-	.second {
+    }
+    .second {
   background: url("https://i.imgur.com/OTta1iC.jpg");
   background-size: cover;
   height: 480px;
@@ -99,8 +96,8 @@ header {
   margin-left: 40px;
   float: left;
   margin-bottom: 50px;
-	}
-	.third {
+    }
+    .third {
   background: url("https://i.imgur.com/hhUbaMR.jpg?1");
   background-size: cover;
   height: 480px;
@@ -108,7 +105,7 @@ header {
   margin-left: 40px;
   float: left;
   margin-bottom: 50px;
-	}
+    }
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
